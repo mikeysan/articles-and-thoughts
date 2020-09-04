@@ -5,11 +5,12 @@ This article will help anyone who has installed python 3 on Mac OS X using pyenv
 ## The Problem?
 
 **You get one of the following errors:**
-
-- Python may not be configured for Tk on import tkinter
-- import _tkinter # If this fails your Python may not be configured for Tk
-- RuntimeError: tk.h version (8.6) doesn't match libtk.a version (8.5)
-- ModuleNotFoundError: No module named '_tkinter'
+```
+     Python may not be configured for Tk on import tkinter
+     import _tkinter # If this fails your Python may not be configured for Tk
+     RuntimeError: tk.h version (8.6) doesn't match libtk.a version (8.5)
+     ModuleNotFoundError: No module named '_tkinter'
+```
 
 First, I installed homebrew. Using homebrew, I installed pyenv, and then Python. That was the wrong order.
 
