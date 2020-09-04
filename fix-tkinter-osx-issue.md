@@ -37,14 +37,14 @@ The correct steps to avoid issues in future or fix the problem:
 ``` source ~/.zshrc ```
 
 - My final zshrc looks like
-<!-- ```export PATH="$PATH:/Users/mikeysan/development/tools/flutter/bin"
+```export PATH="$PATH:/Users/mikeysan/development/tools/flutter/bin"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/tcl-tk/lib"
 export CPPFLAGS="-I/usr/local/opt/tcl-tk/include"
-export PKG_CONFIG_PATH="/usr/local/opt/tcl-tk/lib/pkgconfig" ``` -->
+export PKG_CONFIG_PATH="/usr/local/opt/tcl-tk/lib/pkgconfig" ```
 
 - If you have already installed Python, you will need to uninstall it
 ``` pyenv uninstall <python-version>``` E.g ``` pyenv uninstall 3.8.5 ```
