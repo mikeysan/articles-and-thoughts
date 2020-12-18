@@ -7,19 +7,24 @@
 * Finally, we make no assumptions here. You will need to sign up for a Heroku account. You can do that [here](https://signup.heroku.com/).
 
 
-### To Publish an app to Heroku you start by:
+## Let us begin:
 
-* Visit [apps-dashboard](https://dashboard.heroku.com/apps) to setup the app.
+### Create
+* Once you have setup your account on heroku, visit [apps-dashboard](https://dashboard.heroku.com/apps) to setup the app.
 
 * Click "New" and select "create cew app".
 
+<img align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/create_new_app.PNG">
+<br clear="left" />
+
 * Give the app a name and select a region.
+
+<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/give-name-n-region.PNG">
+<br clear="left" />
 
 * Next click on "Create app".
 
-<img align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/create_new_app.PNG"> <br clear="left" />
-
-
+### Deploy
 * Next you will be taken to the "Deploy" tab when you decide how you want to deploy your app. We will select "GitHub".
 <img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/deploy_selection.PNG">
 <br clear="left" />
@@ -36,7 +41,8 @@
 <br clear="left" />
 
 * Search for a repository you wish to connect to (deploy). My example shows which repositories come up as I search for twitter.
-<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/give-name-n-region.PNG">
+
+<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/search-for-repo.PNG">
 <br clear="left" />
 
 * Choose which branch you wish to deploy. You can choose between the "development"(if you have one) or "main".
