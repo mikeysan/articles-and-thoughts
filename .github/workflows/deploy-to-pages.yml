@@ -11,14 +11,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-      with:
-        node-version: 13.x
-    - run: npm ci
-    - run: npm run build
-    - run: npm test
-      env:
-        CI: true
         
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
