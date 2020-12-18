@@ -14,35 +14,35 @@
 
 * Click "New" and select "create cew app".
 
-<img align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/create_new_app.PNG">
+<img align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/images/create_new_app.PNG">
 <br clear="left" />
 
 * Give the app a name and select a region.
 
-<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/give-name-n-region.PNG">
+<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/images/give-name-n-region.PNG">
 <br clear="left" />
 
 * Next click on "Create app".
 
 ### Deploy
 * Next you will be taken to the "Deploy" tab when you decide how you want to deploy your app. We will select "GitHub".
-<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/deploy_selection.PNG">
+<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/images/deploy_selection.PNG">
 <br clear="left" />
 
 ###### Note: For each deployment method you choose, Heroku will display steps on how to proceed. For example, deploy using Heroku CLI
 
-<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/deploy-w-herokucli.PNG">
+<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/images/deploy-w-herokucli.PNG">
 <br clear="left" />
 
 * Follow instructions on Heroku to connect your GitHub account to heroku.
 
 * Once you have connected your GitHub account to Heroku, you should see it under "Search for a repository to connect to.
-<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/deploy-w-github.PNG">
+<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/images/deploy-w-github.PNG">
 <br clear="left" />
 
 * Search for a repository you wish to connect to (deploy). My example shows which repositories come up as I search for twitter.
 
-<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/search-for-repo.PNG">
+<img width="70%" height="70%" align="left" src="https://github.com/mikeysan/articles-and-thoughts/raw/main/images/search-for-repo.PNG">
 <br clear="left" />
 
 * Choose which branch you wish to deploy. You can choose between the "development"(if you have one) or "main".
